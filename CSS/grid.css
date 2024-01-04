@@ -1,0 +1,37 @@
+.parent{
+    display:grid;
+    width:700px;
+    height:100vh;
+    background-color: antiquewhite;
+    border: 10px solid cadetblue;
+    grid-template-columns:100px 200px 100px;
+    /*grid-template-columns:repeat(3,300px); for same width and multiple items*/
+    grid-template-rows: 50px 180px 50px;
+    grid-row-gap:8px;
+    grid-column-gap:5px;
+    /*grid-template-areas: "child"
+                        "child1 child2 child3"
+                        "child4";*/
+    justify-content: center;
+    align-content:center;
+    
+}
+.parent>div:nth-child(odd){
+    background-color:aquamarine ;
+}
+.parent>div:nth-child(even){
+    background-color:cadetblue;}
+
+
+.child,.child4{
+    grid-column:1/4;
+    justify-self:stretch;
+}
+/*.child1{
+    grid-area:child1;
+}*/
+
+body{
+    justify-content: center;
+    align-content: center;
+}

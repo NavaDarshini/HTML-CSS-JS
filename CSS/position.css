@@ -1,0 +1,40 @@
+.container{
+    border:5px solid;
+    background-color: antiquewhite;
+    height:1000px
+    
+}
+.box{
+    display:inline-block;
+    border: 2px solid red;
+    width:150px;
+    height:150px;
+    margin:2px
+}
+#box1{
+    position: static;
+}
+#box3{
+    /*relative:relative to its normal position and will leave a gap at its normal position
+    position: relative;
+    top:34px;
+    left:30px;*/
+    /*absolute:relative to the position of its first parent*/
+    /*position:absolute;
+    top:34px;
+    left:30px;*/
+    /*fixed:positions the element relative to the browser window
+    position:fixed;
+    right: 50px;
+    bottom:5px;*/
+    position: sticky;
+    top:3px
+    
+
+
+}
+#box4{
+    position: relative;
+    top:45px;
+}
+/*css position:static,absolute,relative,fixed,sticky*/

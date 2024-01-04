@@ -1,0 +1,51 @@
+body
+{
+    background-color:hsl(212, 45%, 89%);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+div
+{
+ background-color: hsl(220, 15%, 55%);
+ height:600px;
+ width:1000px;
+ display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+.qr
+{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    height: 350px;
+    width: 160px;
+    padding:10px;
+    padding-bottom: 20px;
+    
+   
+}
+.qr>img
+{
+    height: 130px;
+    width: 140px;
+    border:9px solid rgba(0, 81, 255, 0.697);
+    border-radius:5px ;
+    gap:2px
+        
+}
+.qr h1
+{
+    font-weight: 700;
+    gap:2px;
+}
+.qr para
+{
+    font-weight: 400;
+    font-size:15px;
+}
