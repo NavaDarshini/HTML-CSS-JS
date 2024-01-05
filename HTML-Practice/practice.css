@@ -1,0 +1,17 @@
+
+
+h1{
+    background-color: red;
+    height:100px;
+    width:200px;
+    transition:2s all ease;
+}
+h1:hover{
+    height:100px;
+    width:100px;
+}
+.circle{
+cursor:crosshair;
+}
+.circle:hover{
+}

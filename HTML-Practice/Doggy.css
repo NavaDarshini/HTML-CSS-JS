@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.fullmenu{
+   display: flex; 
+   justify-content: end;
+   padding: 5px;
+   gap:15px
+}
+.menu{
+    list-style-type: none;
+    display:inline-block;
+    color:indianred;
+    font-size:20px;
+    padding: 10px;
+    border: 1px solid indianred;
+    background-color:indianred;
+    border-radius: 20px;
+    transition: all ease;
+
+}
+.outer{
+    border:2px solid palevioletred;
+    background-color: rgba(255, 105, 180, 0.212);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center; 
+    
+}
+
+img{
+    height:300px;
+    clip-path: circle();
+}
+h2{
+    margin-top: 3%;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#about,#contact
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border:1px solid grey;
+    height:100vh;
+}
+footer{
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+}
+#intro
+{
+    background-image:url("https://img.freepik.com/free-vector/detailed-hand-painted-pink-watercolour-background_1048-17039.jpg?w=996&amp;t=st=1704176925~exp=1704177525~hmac=dd276c72cdc3e82bc3bbc2d83f93ee357b01ebd9817733c7fc0bfe7b0333e1ea")
+}
+#about{
+    background-color: bisque;
+}
+#contact{
+    background-color: blanchedalmond;
+}
+#contact p, ul{
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+#about p{
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+header a{
+    color:bisque;
+    text-decoration:none;
+}
+h1{
+    font-size:2em;
+}
