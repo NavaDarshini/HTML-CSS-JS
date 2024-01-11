@@ -1,0 +1,12 @@
+.left h2
+{
+    font-size:48px
+}
+.left h3{
+
+}
+#div{
+    box-sizing: border-box;
+    border-left: 2px solid ;
+    padding-left: 10px;
+}
