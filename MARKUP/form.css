@@ -1,0 +1,25 @@
+*{
+    background-color:beige;
+
+}
+body{
+    border: 4px solid;
+    padding: 3px;
+    margin: 2px;
+}
+.fs{
+    background-color:bisque;
+}
+.bt{
+    background-color: antiquewhite;
+}
+.click{
+    background-color: burlywood;
+}
+.click:hover
+{
+    background-color:cadetblue;
+}
+.c{
+  background-color:cornsilk;
+}

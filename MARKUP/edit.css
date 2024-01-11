@@ -1,0 +1,35 @@
+*
+{
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-sizing: border-box;
+    
+    
+}
+h1
+{
+    text-align:center;
+    font: size 50px;
+
+}
+div
+{
+    border: 2px solid black;
+}
+.outer
+{
+    text-decoration: none;
+    
+    text-decoration: none;
+}
+.inner
+{
+    display: block;
+    margin:20px;
+}
+#para
+{
+    float: right;
+    
+}
