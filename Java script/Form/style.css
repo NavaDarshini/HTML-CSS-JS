@@ -1,0 +1,158 @@
+body{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    display: none;
+    border: 1px solid;
+    height:140vh;
+    width: 500px;
+    box-shadow: 8px 5px 6px black;
+    background-color:white;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    box-sizing: border-box;
+    padding-top: 1px;
+    border-top: 1px solid;
+
+}
+#btn{
+    background-color:grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+#infor{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    margin-left: 40px;
+}
+#name,#num{
+    width:40%;
+    height:35px;
+    margin-bottom: 20px;
+    
+}
+#Email,#pass{
+    width:40%;
+    height:35px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+span{
+    font-size: 20px;
+}
+#sun{
+    height:15px;
+    width:15px;
+    border-radius:50%;
+}
+
+.dark{
+    background-color:white;
+    color:black;
+
+}
+#moon{
+    height:15px;
+    width:15px;
+    border-radius:50%;
+}
+/* #button{
+    height:40px;
+    width:70px;
+    border:0.1px;
+    border-radius:20%; */
+
+.ball{
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    background-color:grey;
+    position: absolute;
+    transition:transform 0.2s linear;
+        
+}
+.label1{
+    background-color: blanchedalmond;
+    display:flex;
+    border-radius: 50px;
+    height:20px;
+    width:40px;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px;
+    margin-top: 0;
+    position:relative;
+    margin-left:400px;
+
+}
+.checkbox{
+    opacity:0;
+    position:absolute;
+
+}
+.checkbox:checked + .label .ball {
+    transform:translateX(23px);
+}
+#submit{
+    width:60px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.accordion{
+    width:500px;
+}
+.accordion .container{
+    position: relative;
+    margin:0;
+    height:32px;
+
+}
+.accordion .label{
+    position:relative;
+    width:300px;
+    font-size: 23px;
+    padding: 5px 0;
+    background-color: white;
+}
+.accordion .label::before{
+    content:'+';
+    color:black;
+    top:50%;
+    right:-190px;
+    position:absolute;
+    font-size: 25px;
+    transform:translateY(-50%);
+
+}
+.accordion .content{
+    position:relative;
+    background:white;
+    height:0;
+    font-size: 20px;
+    text-align: justify;
+    width:780px;
+    overflow: hidden;
+    transition:0.5s;
+}
+.accordion .container .active .content{
+    height:150px;
+}
+.accordion .container .active .label::before{
+    content:'-';
+    font-size: 30px;
+}

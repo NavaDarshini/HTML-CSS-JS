@@ -1,0 +1,33 @@
+body{
+    background-color:rgb(174, 171, 171);
+}
+#main{
+    background-color:whitesmoke;
+    border: 1px solid;
+    margin-left:200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    padding:30px;
+    
+      
+}
+h1{
+    text-align: center;
+}
+.inf
+{
+ text-align: center;
+}
+#table{
+    border-collapse:collapse;
+    width:100%;
+
+}
+
+.main{
+    border: 1px solid;
+    padding:10px;
+}
+img{
+    border-radius: 50%;
+}

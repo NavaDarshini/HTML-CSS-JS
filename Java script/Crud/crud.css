@@ -1,0 +1,31 @@
+body{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap:70px;
+    margin-top: 50px;
+}
+#inp{
+    height:40px;
+    border-radius: 5px;
+    font: 20px;
+}
+#search{
+    height:35px;
+    width:80px;
+    border-radius: 3px;
+    font-size: 20px;
+
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border:1px solid;
+    padding:10px 20px;
+}

@@ -1,0 +1,30 @@
+.left h2
+{
+    font-size:48px
+}
+.left h3{
+
+}
+#div{
+    box-sizing: border-box;
+    border-left: 2px solid ;
+    padding-left: 10px;
+}
+#pikachu{
+    height:100px;
+    width:100px
+
+}
+#pikachu:hover{
+    scale:1.3;
+    animation:rotate 1s infinate linear;
+    
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(60deg);
+    }
+}

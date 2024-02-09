@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: whitesmoke;
+        }
+        #div{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:20px;
+            height:200px;
+            width: 300px;
+            border:1px solid;
+            border-radius: 5px;
+            box-shadow: 5px 5px 20px;
+            background-color: beige;
+        }
+        #btn:hover{
+            scale:1.2;
+        }
+    </style>
+</head>
+<body>
+    <div id="div">
+    <input name="" id="email" type="Email" placeholder="Enter your Email">
+    <input type="password" id="pwd" name="" placeholder="Enter your password" >
+    <button id="btn">Login</button>
+    </div>
+    <script>
+        const userDetails=JSON.parse(localStorage.getItem('userDetails'))
+        const email=document.getElementById('email')
+        const password=document.getElementById('pwd')
+        document.getElementById('btn').addEventListener('click',function(){
+            console.log(userDetails.email,userDetails.password,email.value,password.value)
+            if((email.value==userDetails.email)&&(password.value==userDetails.password)){
+                console.log("successfully logged in")
+                window.location.href="./dashboard.html"
+            }
+
+        })
+    </script>
+</body>
+</html>

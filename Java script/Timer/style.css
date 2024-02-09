@@ -1,0 +1,18 @@
+body{
+    background-color:rgb(89, 126, 126) ;
+    
+    
+}
+#js-timer{
+    text-align: center;
+}
+#timer{
+    background-color: aliceblue;
+    color: black;
+    width:70px;
+    padding:5px;
+    margin-left: 47%;
+    margin-bottom: 30px;
+    margin-top: 20%;
+
+}

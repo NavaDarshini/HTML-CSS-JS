@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater using JavaScript</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="divv">
+        <div class="container">
+        <div class="display"><input type="text"id='result'>
+        </div>
+        <div>
+        <button class="btn" onclick="ClearDisplay('C')">C</button>
+        <button class="btn" onclick="appendtoDispaly('%')">%</button>
+        <button class="btn" onclick="appendtoDispaly('/')">/</button>
+        <button class="btn" onclick="appendtoDispaly('X')">X</button>
+        </div>
+        <div>
+        <button class="btn" onclick="appendtoDispaly('7')">7</button>
+        <button class="btn" onclick="appendtoDispaly('8')">8</button>
+        <button class="btn" onclick="appendtoDispaly('9')">9</button>
+        <button class="btn" onclick="appendtoDispaly('-')">-</button>
+        </div>
+        <div>
+        <button class="btn" onclick="appendtoDispaly('4')">4</button>
+        <button  class="btn" onclick="appendtoDispaly('5')">5</button>
+        <button  class="btn" onclick="appendtoDispaly('6')">6</button>
+        <button class="btn" onclick="appendtoDispaly('+')">+</button>
+        </div>
+        <div >
+        <button class="btn" onclick="appendtoDispaly('1')">1</button>
+        <button class="btn" onclick="appendtoDispaly('2')">2</button>
+        <button class="btn" onclick="appendtoDispaly('3')">3</button>
+        <button class="btn" id="total" onclick="Calculate('=')">=</button>
+        </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

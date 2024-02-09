@@ -1,0 +1,166 @@
+.menu{
+    list-style-type: none;
+    row-gap: 2px;
+}
+li{
+    row-gap: 5px;
+}
+.img1{
+   height:70px;
+   width:100px; 
+}
+#Home{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.image-container{
+    padding: 10px;
+    padding-left: 0px;
+}
+#darshu{
+    margin-top: 10px;
+}
+
+
+.abdul{
+    height: 200px;
+    width:250px;
+}
+.terms{
+    font-size:10px;
+    text-decoration: none;
+    margin-top: 0;
+}
+.label{
+    padding:10px;
+    
+}
+.color{
+    color:blue;
+}
+
+
+.body{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid white ;
+    padding-left: 150px;
+    
+}
+span{
+    color:blue
+}
+.container{
+    display:grid;
+    row-gap: 50px;
+
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-left: 10px;
+   border:2px solid whitesmoke; 
+}
+#type{
+    display: flex;
+    column-gap: 80px;
+    padding: 20px;
+    
+}
+#reply{
+    padding:20px
+}
+/* button{
+    padding: 10px;
+    background-color:slateblue;
+    border: 1px solid slateblue ;
+    border-radius: 3px; */
+
+#confirm{
+    background-color:whitesmoke;
+    padding-left: 5px;
+}
+input,textarea{
+    background-color:whitesmoke;
+}
+#inner{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+}
+#ty{
+    padding: 5px;
+}
+.div{
+    display: grid;
+    grid-template-columns:2fr 4fr;
+    grid-template-rows: 50px 50px;
+    grid-gap:200px 30px;
+    padding-bottom: 270px;
+    margin-bottom: 30px;
+
+}
+nav{
+    display: flex;
+    flex-direction:column;
+    border:1px solid;
+    box-sizing: border-box;
+    width:800px;
+    margin-left:200px;
+    
+}
+.link{
+    color:red;
+    font-weight:600;
+    text-decoration: none;
+}
+.link2,.link1{
+    color:red;
+    text-decoration: none;
+}
+.head{
+    text-align: center;
+    font-size:30px;
+    margin-top:40px;
+    color:#243a4f;
+    font-family: Montserrat,sans-serif;
+}
+.site{
+    color:darkgreen;
+    text-decoration: none;
+}
+.span{
+    color:green;
+    font-weight: 700;
+}
+
+
+.img2{
+    width:300px;
+    height: 200px;
+}
+.img3{
+    width:400px;
+    height:200px;
+}
+.img4{
+    width:300px;
+    height: 350px;
+}
+.img5{
+    width:400px;
+    height:200px;
+}
+#aksf{
+
+}
+#projects{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+#slide{
+    height:500px;
+}

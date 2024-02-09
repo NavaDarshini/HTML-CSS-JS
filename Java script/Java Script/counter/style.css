@@ -1,0 +1,36 @@
+body
+{
+   height:100vh;
+   display:flex;
+   justify-content: center;
+   align-items: center; 
+}
+#counter
+{
+    box-shadow: 5px 5px 5px black;
+    padding:100px;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content:center;
+    align-items: center;
+    background-image: url("https://images.designtrends.com/wp-content/uploads/2016/03/29085844/White-Wall-texture.jpg");
+    
+}
+.outer{
+    display: flex;
+    gap: 100px;
+}
+    
+    
+
+#count{
+    font-size:48px;
+
+}
+button{
+    background-color: black;
+    padding:10px;
+    color:white;
+    border-radius: 20px;
+}

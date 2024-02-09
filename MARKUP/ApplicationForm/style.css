@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    
+}
+.req{
+    color:red
+
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    
+}
+#div{
+    border:1px solid;
+    box-shadow: 5px 5px 15px;
+    padding:20px;
+    background-color:rgb(208, 232, 240);
+    
+}
+#submit{
+    box-shadow: 2px 2px 10px;
+}
+#reset{
+    box-shadow: 2px 2px 10px;
+    float:right;
+}
+#submit:hover,#reset:hover{
+    scale:1.2;
+}

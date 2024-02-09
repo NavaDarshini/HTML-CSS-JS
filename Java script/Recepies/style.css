@@ -1,0 +1,21 @@
+#recipes{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px; 
+    padding-left:5px;
+}
+.recipe{
+    height:500px;
+    width:350px;
+    border:1px solid;
+    border-radius: 3px; 
+    box-shadow: 2px 3px 15px;
+    padding:10px; 
+    
+}
+.recipe img{
+    height:200px;
+    width:200px;
+    transform: translateX(35%);
+    
+}

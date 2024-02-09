@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <div id="div">
+    <h1>FEEDBACK FORM</h1>
+    <form id="FEEDBACK FORM" action="main.py" method="post">
+    <fieldset class="fs">
+        <legend class="c">Information about candidate and course</legend>
+        <label for="name" class="c">First Name </label>
+        <input type="text" name="Name" id="name" placeholder="Enter your first name"  required/><br><br>
+        <label for="sur name" class="c">Last Name</label>
+        <input type="text" name="Name" id="sur name" placeholder="Enter your last name " maxlength="8" minlength="4" required><br><br>
+        <label for="mail" class="c">Email</label>
+        <input type="Email" name="Email",id="mail" placeholder="Enter your Email"><br><br>
+        <label for="phnno" class="c">phno</label>
+        <input type="number" name="phno" id="phnno" placeholder="Enter your phno" pattern="[0-9]{10}"/><br><br>
+        <label for="crse" class="c">Course</label>
+        <input type="text"name="Course"id="crse" placeholder="Enter your course"><br><br>
+        <label for="time" class="c">Class Time</label>
+        <input type="time"id="time" name="Timmings" placeholder="Enter class timings"><br><br>
+        <label for="mentor" class="c">Mentor</label>
+        <input type="text" id="mentor" name="mentor" placeholder="Enter mentor name"><br><br>
+        <label for="batch" class="c">Batch No</label>
+        <input type="number" id="batch" name="batch" placeholder="Enter batch no" min="1" max="400"><br><br>
+        <label for="Adhar" class="c">Adhar</label>
+        <input type="file" name="Adhar file" id="Adhar"><br><br>
+    </fieldset>
+        How is the course Feedback?
+        <input type="Radio" name="feedback" id="rad">
+        <label for="rad">Average</label>
+        <input type="Radio" name="feedback" id="rad">
+        <label for="rad">Good</label>
+        <input type="Radio" name="feedback" id="rad">
+        <label for="rad">Excellent</label><br><br>
+        Which concept is your favourite?
+        <input type="checkbox" id="fav" name="html">
+        <label for="fav">HTML</label>
+        <input type="checkbox" id="css" name="css">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="js" name="js">
+        <label for="js">JS</label><br>
+        <p>How is your rating for the class presentation?</p>
+        <select>
+            <option value="Dummy">select an option</option>
+            <option value="full">100%</option>
+            <option value="quaterly">75%</option>
+            <option value="Half">50%</option>
+        </select><br>
+        <p>If you any suggestions drop here.</p>
+        <textarea name="Suggestions" cols="30" rows="2" class="bt"></textarea><br>
+        <input type="submit" value="submit" class="click">
+        <input type="reset" value="Reset" class="click">
+        
+        
+    </form>
+    </div>
+    
+     
+</body>
+</html>

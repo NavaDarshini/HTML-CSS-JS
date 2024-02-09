@@ -1,0 +1,15 @@
+img{
+    height:300px;
+    width:400px;
+}
+img::before{
+    content: "Steve Jobs";
+}
+h2{
+    font-size: 30px;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    padding: 30px;
+}

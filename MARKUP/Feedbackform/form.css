@@ -1,0 +1,34 @@
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:beige;
+    box-sizing: border-box;
+}
+.fs{
+    background-color:bisque;
+}
+.bt{
+    background-color: antiquewhite;
+}
+.click{
+    background-color: burlywood;
+}
+.click:hover
+{
+    background-color:cornsilk;
+    scale:1.1;
+}
+.c{
+  background-color:cornsilk;
+}
+#div{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 15px;
+  
+}
+h1{
+    text-align: center;
+}

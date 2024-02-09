@@ -1,5 +1,5 @@
 body{
-    background-color:#245200;
+
 }
 #logo{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -20,5 +20,5 @@ body{
 }
 main{
     border: 2px solid rgb(128, 177, 55) ;
-    box-shadow:5px -5px 0.5px 0.5px rgb(128, 177, 55) ;
+    box-shadow:5px -5px 0.5px 0.5px 10px rgb(128, 177, 55) ;
 }
