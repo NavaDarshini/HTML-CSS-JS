@@ -20,15 +20,40 @@ body{
     background-color:cornsilk;
     scale:1.1;
 }
-.c{
-  background-color:cornsilk;
-}
 #div{
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 5px 15px;
+  background-color: white;
+  width: 700px;
   
 }
 h1{
     text-align: center;
+}
+.c,label{
+    
+    font-size: 20px;
+}
+legend{
+    background-color: white;
+}
+select{
+    height:25px;
+}
+input{
+    padding: 5px;
+    margin-left: 20px;
+    /* float: right;
+    margin-right: 200px;
+     */
+}
+#FEEDBACK FORM{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+label{
+    width:100px;
+    display:inline-block;
 }

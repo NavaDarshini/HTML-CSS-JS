@@ -11,14 +11,15 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
+    background-color:rgb(191, 211, 228);
     
 }
 #div{
     border:1px solid;
     box-shadow: 5px 5px 15px;
     padding:20px;
-    background-color:rgb(208, 232, 240);
+    background-color:rgb(253, 254, 254);
+    width:700px;
     
 }
 #submit{
@@ -30,4 +31,8 @@ body{
 }
 #submit:hover,#reset:hover{
     scale:1.2;
+}
+label{
+    width:100px;
+    display: inline-block;
 }

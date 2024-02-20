@@ -9,7 +9,7 @@ body{
     display: none;
     border: 1px solid;
     height:140vh;
-    width: 500px;
+    width: 800px;
     box-shadow: 8px 5px 6px black;
     background-color:white;
     top: 0;
@@ -93,7 +93,7 @@ span{
     padding:5px;
     margin-top: 0;
     position:relative;
-    margin-left:400px;
+    margin-left:650px;
 
 }
 .checkbox{
@@ -114,10 +114,11 @@ h1{
     margin-bottom: 0px;
 }
 .accordion{
-    width:500px;
+    width:700px;
+    padding-left: 30px;
 }
 .accordion .container{
-    position: relative;
+
     margin:0;
     height:32px;
 
@@ -126,14 +127,15 @@ h1{
     position:relative;
     width:300px;
     font-size: 23px;
-    padding: 5px 0;
+    
     background-color: white;
+    transform: translateX(100px);
 }
 .accordion .label::before{
     content:'+';
     color:black;
     top:50%;
-    right:-190px;
+    right:-200px;
     position:absolute;
     font-size: 25px;
     transform:translateY(-50%);
@@ -155,4 +157,7 @@ h1{
 .accordion .container .active .label::before{
     content:'-';
     font-size: 30px;
+}
+hr{
+    width: 500px;
 }

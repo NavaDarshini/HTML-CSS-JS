@@ -1,0 +1,50 @@
+body{
+    box-sizing: border-box;
+}
+img{
+    height:50px;
+    width:50px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    
+}
+img:hover{
+    transform: scale(1.1);
+}
+table{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+h1{
+    text-align: center;
+    
+}
+th{
+    text-align: center;
+    padding: 10px;
+    padding-left: 150px;
+    
+}
+td{
+    padding: 5px;
+    transform:scale(1);
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+    
+}
+tr,td{
+    border:1px solid;
+}
+td a{
+    padding:0px 30px ;
+    
+    
+}
+td p{
+    font-size: 20px;
+}

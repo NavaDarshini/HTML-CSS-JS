@@ -8,9 +8,39 @@
     <link rel="stylesheet" href="./1-dummy.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-<body id="projects">
+<body>
+    <header class="d-flex justify-content-between">
+        <div class="position-sticky"><img src="https://www.apjabdulkalamfoundation.org/images/apjabdulkalamfoundation.jpg" alt="logo" class="img1">
+        </div>
+        <div>
+          <a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample">
+            <i class="fa fa-bars"id="bars"></i>
+            </a>
+            
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Foundation Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                
+                <div class="Menu mt-3">
+                  
+                  <ul class="menu">
+                    <li><a class="text-decoration-none text-uppercase" href="./1-dummyHome.html">Home</a></li>
+                    <li><a class="text-decoration-none text-uppercase" href="./1-dummyAbout.html">About</a></li>
+                    <li><a class="text-decoration-none text-uppercase" href="./1-dummyVision.html">Vision</a></li>
+                    <li><a class="text-decoration-none text-uppercase"href="./1-dummyprojects.html">Projects</a></li>
+                    <li><a class="text-decoration-none text-uppercase"href="./1-dummyGallery.html">Gallery</a></li>
+                    <li><a class="text-decoration-none text-uppercase"href="./1-dummyContact.html">Contact us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </header>
+    <main id="projects">
     <p class="head"><b>Our Projects</b></p>
-    <nav class=" d-flex border border-1 rounded">
+    <nav class=" d-flex border border-1 rounded" id="project">
        <img src="https://www.apjabdulkalamfoundation.org/images/about/social forest (aksf).jpg" alt="projects pics" id="aksf"> 
        <h3 class="align-items-center">1.SOCIAL FOREST(AKSF)</h3>
        <p>Another ambitious initiative, the <b>“Green Rameswaram Project”</b>, a joint venture with Vivekananda Kendra aims to transform Rameswaram. It was well appreciated, wherein the participation of all stakeholders including the government machinery, the citizens and the corporate houses has been mobilized. The significance of this project was well acknowledged by Dr. Abdul Kalam and he made his presence felt at the inauguration in 2014. Our Prime Minister Narendra Modi was all praises for the initiative in his inaugural address. The project is the need of the hour as Rameswaram is both a pilgrim and a tourist spot. Hence it is absolutely necessary to have access to water facilities, waste management and beautification of the place. Renewable energy has to be explored for a clean environment. One of the prized possessions of Rameswaram is the marine biodiversity. We want to preserve the Marine life which is as significant as the people of Rameswaram to have a healthy life in a clean environment.</p>
@@ -27,7 +57,7 @@
         <h6 ><a href="https://www.apjabdulkalamfoundation.org/images/about/Volunteer%20Form.pdf" class="link2">AKSF VOLUNTTER APPLICATION FORM PDF</a></h6>
        </div>
     </nav>
-    <nav>
+    <nav  id="project">
         <img src="https://www.apjabdulkalamfoundation.org/images/events/Igniting%20Minds/Igniting%20Minds.jpg" alt="Project pics">
         <h3 class="align-items-center">2.CENTRE FOR IGNITING MINDS</h3>
         <p>Triggers a multitude of emotions in every citizen of this country. where the heart swells with pride. An epitome of hard work. dedication and humility. he preached what he practiced. He inspired a whole generation. overcoming his financial instabilities at a young age fighting against all odds to reach the zenith of success. He left no stone unturned paving ways for a successful scientific career.<br>
@@ -38,7 +68,7 @@
             
             His enthusiasm in shaping young minds during his old age was truly remarkable! The confidence he exuberates. makes us shed our inhibitions and come out of our cocoons to face the wor Id. The path to success might be a tough one, but his positive attitude towards life are like petals strewn all over the path. His idea was to work on the overall refinement of our self and to be psychologically strong to lead our beloved country to prosperity.</p>
     </nav>
-    <nav>
+    <nav  id="project">
         <img src="https://nif.org.in/upload/news/news-11111.jpg" alt="Project pics">
         <h3 class="">3. SCIENCE INNOVATION CENTRE</h3>
        <p>The Innovation Centre will be the space to promote & Educate the ideas of innovation ingenuity & creativity in students & teachers of schools.<br>
@@ -60,7 +90,7 @@
      
     </nav>
        
-       
+    </main>  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

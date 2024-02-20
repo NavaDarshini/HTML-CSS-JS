@@ -1,0 +1,47 @@
+/* body{
+    transition: background 0.2s linear;
+} */
+
+img{
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    
+}
+label{
+    border:2px solid;
+    display: flex;
+    width: 60px;
+    height: 30px;
+    gap:5px;
+    position: relative;
+    padding: 5px;
+    transition: 0.3s;
+    
+}
+.ball{
+    height:25px;
+    width:25px;
+    background-color: gray;
+    border-radius: 50%;
+    position:absolute;
+} 
+input{
+    width:0;
+    height:0;
+    visibility:hidden;
+} 
+/* body.dark{
+    background-color:black;
+    }
+body.dark h1,body.dark.support a {color:white} */
+input:checked +.ball {
+    left:49px;    
+    transform: translateX(-24px);
+      }
+input:checked + label {
+    background: #242424;
+ } 
+ label:active+.ball{
+    width:260px;
+ }   
